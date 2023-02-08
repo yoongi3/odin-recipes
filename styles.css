@@ -1,5 +1,6 @@
 .title{
     font-size: 30px;
+    text-align: center;
 }
 
 .header{
@@ -7,15 +8,15 @@
 }
 
 .sub-header{
-
+    font-weight: 700;
 }
 
 .content{
-    width: 500px;
     font-size: 15px;
 }
 
 img{
-    height: auto;
-    width: 300px;
+    float:right;
+    height: 100%;
+    width: 500px;
 }
