@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    font-family: "Monacoo", monospace;
+}
+/* nav bar */ 
+.nav-bar{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+}
+
+.page-wrapper{
+    background-color: #c8d8e4;
+    display: flex;
+    flex-direction: column;
+}
+
+/* title section */ 
+.title-section{
+    padding: 50px 100px;
+}
+
+.title-container{
+    background-color: #2b6777;
+    color: #ffffff;
+    display: flex;
+    padding: 40px;
+    gap: 20px;
+}
+
+/* recipe section */
+.recipe-section{
+    padding: 0 100px;
+    text-align: center;
+}
+.recipe-container{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+.recipe{
+    margin: 0 20px;
+}
+
+/* quote section */
+.quote-section{
+    padding: 100px 300px;
+    display: flex;
+    flex-direction: column;
+}
+.quote{
+    font-style: italic;
+}
+.quote-author{
+    align-self: flex-end;
+}
+/* signup section */
+.signup-section{
+    color: #ffffff;
+    padding: 0 100px;
+    padding-bottom: 50px;
+}
+.signup-box{
+    background-color: #2b6777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+/* footer */
+.footer{
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.signup-button{
+    height: 25px;
+    width: 90px;
+}
+.main-img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.recipe-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
